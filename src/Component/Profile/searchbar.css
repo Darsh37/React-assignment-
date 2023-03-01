@@ -1,0 +1,8 @@
+.searchbar{
+    display: flex;
+    flex-direction: row;
+}
+.Dropdown{
+    display: flex;
+    flex-direction: column;
+}
