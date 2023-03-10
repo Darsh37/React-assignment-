@@ -1,4 +1,24 @@
 .profile{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 30vh;
+    width: 70vw;
+    border-bottom: 1px solid black;
 }
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 10vw;
+    border-right: 1px black;
+   
+}
+
+.box h6 {
+    color: gray;
+}
+
+
+
+

@@ -1,38 +1,43 @@
 import React from "react";
-import { ReactDOM } from "react";
-import Card from 'react-bootstrap/Card';
+import "./profile.css"
+import Sdata from "./Sdata";
 
+console.log(Sdata[0].name);
 
-// ReactDOM.render(
-//     <>
-//     <div className="text_div">
-//         <h3>Hi</h3>
-//         <h6></h6>
+const Box =(props)=>{
+    return(
+        <>
+        <div className="box">
+            <h6>{props.name}</h6>
+            <p>{props.Val}</p>
+        </div>       
+        </>
+           
+    )
 
-//     </div>
-
-//     </>,
-//     document.getElementById('root')
-// );
+}
 
 const Profile = () =>{
     return(
-        <>    
-        <Card body style={{ outline:"none", display:"flex",flexdirection: "row" }}>
-        <div className="text_div" style={{ display: "flex", flexdirection: "column" }}>
-        <lable>Diance Cooper  diancecooper@gmail.com<br/>
-        <label>Gender <br/>female</label>
-        <img src="../images/sLine.png" style={{height:50, width:2, paddingLeft:50}}></img>
-        <label>Birthday <br/>030/7/1995</label>
-        <img src="../images/sLine.png" style={{height:50,width:2,paddingLeft:50}}></img>
-        <label>Phone Number <br/>8169730338</label>
-        <img src="../images/sLine.png" style={{height:50,width:2, paddingLeft:50}}></img>
-        <label>Member Status <br/>Active</label>
-        </lable>
+        <div className="profile">
+          <Box
+          name="Gender"
+          Val={Sdata[0].gender}
+          />
+          <Box
+          name="Bithdate"
+          Val={Sdata[0].birthdate}/>
+          <Box
+           name="phone Number"
+           Val={Sdata[0].phone_number}
+          />
+          <Box
+           name="member Status"
+           Val={Sdata[0].member_status}
+          />
         </div>
-        </Card>
- 
-        </>
+    
     )
 }
-export default Profile;
+
+export default Profile; 

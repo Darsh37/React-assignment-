@@ -19,12 +19,11 @@
     align-items: center;
     justify-content: center;
     width: 5vw;
-    height: 10vh;
-
-   
+    height: 10.5vh;
   }
   .plus_sign h6{
     margin: 5px;
-    line-height: 0px;
+    line-height: 2px;
+    color: grey;
   }
  

@@ -10,7 +10,7 @@ function Sidebar(){
     </div>
     <div className='plus_sign'>
     <img src='../images/+.png'/>
-    
+    <h6>new</h6>
     </div>
     <div className='plus_sign'>
     <img src='../images/patient.png'/>
