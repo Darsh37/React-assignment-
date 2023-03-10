@@ -26,19 +26,17 @@ function App() {
   </div>
   
   <div className='profile_div'>
-  <Profile ></Profile>
+  <Profile></Profile>
   <Profile></Profile>
   <Profile></Profile>
   <Profile></Profile>
   <Profile></Profile>
   </div>
-
   </div>
   </div>
 
  </>
-
-  )
+)
 };
 
 export default App;
