@@ -9,33 +9,10 @@ import Nav from 'react-bootstrap/Nav';
 const Searchbar=()=>{
     return(
         <>
-        <div className="searchbar">
-           <Container>
-             <Navbar expand="lg" variant="light" bg="light" style={{ width:1367, borderBottom: "solid" }}>
-              <Container >
-             <Navbar.Brand href="#" >
-                <h5 style={{ color:"gray"}}>Find by Name or Phone Number</h5>
-                <div className="Dropdown" >
-                <Nav>
-            <NavDropdown
-              id="nav-dropdown-dark-example"
-              title="Gender"
-              menuVariant="dark"
-            >
-              <NavDropdown.Item href="#action/3.1">Female</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Male
-              </NavDropdown.Item>
-            
-            </NavDropdown>
-          </Nav>
+        <div className="main-searchbar-flex">
+          <div className="search-text">find by name or phone_number</div>
                              
-                </div>
-             </Navbar.Brand>
-             </Container>
-            </Navbar>
-         </Container>
-         </div>      
+       </div>             
         </>
     )
 }

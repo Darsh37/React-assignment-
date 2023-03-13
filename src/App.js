@@ -4,8 +4,10 @@ import Profile from './Component/Profile/Profile';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Sdata from "./Component/Profile/Sdata";
 
 import Searchbar from './Component/Profile/Searchbar';
+ 
 // const cardStyles = {
 //   container: {
 //   display : "flex",
@@ -16,21 +18,20 @@ function App() {
   return (
     <>
 
-  <div className="App">
-  <Sidebar></Sidebar>
+  <div className="main-app">
+
+    <div className='sidebar-flex'> <Sidebar/></div>
+   
+   <div className='sub-flex'>
   
-  <div className='main_div'>
-  
-  <div className='searchbar_div'>
-  <Searchbar></Searchbar>
+  <div className='searchbar-flex'>
+  <Searchbar/>
   </div>
   
-  <div className='profile_div'>
-  <Profile></Profile>
-  <Profile></Profile>
-  <Profile></Profile>
-  <Profile></Profile>
-  <Profile></Profile>
+  <div className='profile-flex'>
+  {Sdata.map((element) => (
+    <Profile item={element} />
+  ))}
   </div>
   </div>
   </div>

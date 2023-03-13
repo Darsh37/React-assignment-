@@ -1,8 +1,21 @@
-.searchbar{
-    display: flex;
-    flex-direction: row;
-}
-.Dropdown{
+.main-searchbar-flex{
     display: flex;
     flex-direction: column;
+    height: 30vh;
+    width: 70vw;
+    border-bottom: 1px solid #000000;
+    padding: 5%;
+}
+
+.search-text{    
+width: 286px;
+height: 25px;
+left: 124px;
+top: 18px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+color:grey ;
 }

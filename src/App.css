@@ -1,27 +1,41 @@
-.App{
+.main-app{
  display: flex;
  flex-direction: row;
- background: #F5F5F5;
  height: 100%;
  width:auto;
+ box-sizing:border-box ;
  
 }
-.seachbar_div{
-    display: flex;
-    flex-direction: column;
-    background: #F5F5F5;
-    height: 20vh;
-    width: 70vw;
-   
+
+.sub-flex{
+    flex:1; 
+    padding: 3%;
+    height: auto;
+    width: 70vh;
+    border-left: 1px  #000000; 
 }
 
-.profile_div{
+
+.searchbar-flex{
+    display: flex;
+    flex-direction: column;
+  
+    height: 10vh;
+    width: 80vw; 
+    border-bottom: 1px groove #000000; 
+}
+
+.profile-flex{
     padding: 30px;
     display: flex;
     flex-direction: column;
-    background: #F5F5F5;
+  
     height: 30vh;
     width: 70vw;
     background-size: cover;
 }
 
+@media (max-width: 600px){
+    
+     
+}

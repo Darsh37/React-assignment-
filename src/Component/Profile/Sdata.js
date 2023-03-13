@@ -5,7 +5,9 @@ const Sdata =[
         gender:"female",
         birthdate:"Feb 24th, 1997",
         phone_number:"8169730388",
-        member_status:"Active member"
+        member_status:"Active member",
+        past:"15",
+        upcoming:"02"
     },
     {
         name : "Diance Cooper",
@@ -13,7 +15,9 @@ const Sdata =[
         gender:"female",
         birthdate:"Feb 24th, 1997",
         phone_number:"8169730388",
-        member_status:"Active member"
+        member_status:"Active member",
+        past:"15",
+        upcoming:"02"
     },
     {
         name : "Diance Cooper",
@@ -21,7 +25,9 @@ const Sdata =[
         gender:"female",
         birthdate:"Feb 24th, 1997",
         phone_number:"8169730388",
-        member_status:"Active member"
+        member_status:"Active member",
+        past:"15",
+        upcoming:"02"
     },
 
 ]
